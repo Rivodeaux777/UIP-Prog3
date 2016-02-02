@@ -44,11 +44,15 @@ while opcion==0:
                             else
                             suplist.append(tup1[4])
         opcion=0
+    productos=0
     elif
         opcion==2:
         print (suplist)
         opcion=0
-        else
+        elif
+        while productos==0
+
+
 
         del suplist[x]
 
