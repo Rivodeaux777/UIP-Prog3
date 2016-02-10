@@ -11,7 +11,7 @@ Crear programa que maneje lista de supermercado donde se pueda agregar, ver, bus
 
 tup1 = ("arroz", "leche", "tuna", "cereal", "jugo")
 
-Opcion=0
+opcion=0
 productos=0
 
 while opcion==0:
@@ -21,7 +21,7 @@ while opcion==0:
     print ("Si desea salir, presione 4")
 
     opcion= input("Su Opción es: ")
-
+''' Agregar Productos'''
     if opcion==1:
         while productos==0:
             print("Para agregar arroz, presione 1")
@@ -45,16 +45,16 @@ while opcion==0:
                             suplist.append(tup1[4])
         opcion=0
     productos=0
-    elif
+    ''' Ver productos'''
+    else
+    if
         opcion==2:
         print (suplist)
         opcion=0
-        elif
-        while productos==0
-
-
-
-        del suplist[x]
+        else
+        if
+            while productos==0:
+                del suplist[x]
 
 
 print ("La lista de los productos para el super son:", suplist)
