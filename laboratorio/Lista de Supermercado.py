@@ -21,7 +21,7 @@ while opcion == 0:
     print ("Si desea ver los productos de la lista, presione 2")
     print ("Si desea eliminar productos de la lista presione 3")
     print ("Si desea salir, presione 4")
-    opcion = input("Su Opción es: ")
+    opcion = int (input("Su Opción es: "))
     if opcion == 1:
         while productos == 0:
             print("Para agregar arroz, presione 1")
