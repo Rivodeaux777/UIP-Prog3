@@ -69,5 +69,6 @@ while opcion == 0:
                 print ("Gracias por usar el programa.")
                 opcion = 0
                 productos = 0
+                break
 
 print ("La lista de los productos para el super son:", suplist)
