@@ -10,7 +10,7 @@ Crear programa que maneje lista de supermercado donde se pueda agregar, ver, bus
 '''
 
 tup1 = ("arroz", "leche", "tuna", "cereal", "jugo")
-
+suplist= []
 opcion=0
 productos=0
 x=0
@@ -29,7 +29,7 @@ while opcion == 0:
             print("Para agregar tuna, presione 3")
             print("Para agregar cereal, presione 4")
             print("Para agregar jugo, presione 5")
-            productos = input("Su opción es: ")
+            productos = int (input("Su opción es: "))
             if productos == 1:
                 suplist.append(tup1[0])
             else:
@@ -58,7 +58,7 @@ while opcion == 0:
                     print("Para eliminar tuna, presione 3")
                     print("Para eliminar cereal, presione 4")
                     print("Para eliminar jugo, presione 5")
-                    productos = input("Su opción es: ")
+                    productos = int (input("Su opción es: "))
                     while [y <= x]:
                         if suplist[x] == tup1[productos]:
                             del suplist[x]
