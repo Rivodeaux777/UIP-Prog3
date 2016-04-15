@@ -9,7 +9,7 @@
         comer() +5v +1a     Corra
                             Duerna
                             Duerma
-                            Coma
+                            Comavcx
         '''
 class Perro:
     def __init__(self, vida, alegria):
@@ -32,4 +32,5 @@ class Perro:
         self.alegria=self.alegria +1
 
 Lassie = Perro
+
 

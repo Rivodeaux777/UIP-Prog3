@@ -8,7 +8,6 @@ Crear programa que maneje lista de supermercado donde se pueda agregar, ver, bus
  cereal
  jugo
 '''
-
 tup1 = ("arroz", "leche", "tuna", "cereal", "jugo")
 suplist= []
 opcion=0
